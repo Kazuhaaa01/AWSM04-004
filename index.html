@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,398 +11,504 @@
     <script defer src="assets/js/vendor/3d-force-graph.min.js"></script>
     <script defer src="assets/js/hero-graph.js"></script>
   </head>
-  <body class="container-central">
-    <header class="header-outer">
-      <div class="header-inner">
-        <div class="header-logo">
-          <img src="assets\img\strata-logo.svg" />
-        </div>
-        <nav class="header-navigation">
-          <a href="#Platform">Platform</a>
-          <a href="#Workflows">Workflows</a>
-          <a href="#Atlas">Atlas</a>
-          <button>Book a Demo</button>
-        </nav>
+  <body>
+    <header class="header-nav">
+      <div class="header-logo">
+        <img src="assets/img/strata-logo.svg" alt="Strata" />
       </div>
-    </header>
-    <main>
-    <section class="hero">
-      <div>
-        <img src="assets\img\strata-icon.svg" />
-        <h1 class="etiqueta">The work your firm doesn’t bill for, done.</h1>
-        <h2 class="dada">
-          AI agents that run the operational work your firm doesn’t bill for. We
-          turn it into recovered revenue and reclaimed capacity.
-        </h2>
-        <button>Book a Demo</button>
-
-        <img src="assets\img\nexus-screenshot.webp" />
-      </div>
-    </section>
-    <section id="platform">
-      <spam>THE PLATFORM, BRIEFLY</spam>
-      <h2>One platform. Three surfaces.</h2>
-      <div class="platform-card">
-        <h2>Strata Atlas</h2>
-        <spam>
-          Where your firm’s operational map lives. Data sources connected,
-          knowledge organized, ontology managed, workflows configured. The
-          technical surface, operated by your innovation and IT teams alongside
-          ours.
-        </spam>
-      </div>
-      <div class="platform-card">
-        <h2>Strata Nexus</h2>
-        <spam
-          >The executive dashboard. Operational Value at the top: Time Saved,
-          Revenue Recovered. Every workflow’s health, every integration’s
-          status, and a Morning Brief in your inbox. Built for the CIO, CFO, COO
-          and Managing Partner.</spam
-        >
-      </div>
-      <div class="platform-card">
-        <h2>Strata Canvas</h2>
-        <spam>The design surface for new automations. Workflows get built here, by our team and your SMEs together, before they’re promoted into production.</spam>
-      </div>
-      <div class="platform-card-core">
-        <h2>Strata Core</h2>
-        <spam>The engine underneath. Every workflow runs on it. Every dashboard reads from it. Every integration flows through it. One foundation for the work.</spam>
-      </div>
-    </section>
-<!-- 6. FIELD: ejemplo de un cliente y datos de su carga de trabajo -->
-    <section class="field" id="field" aria-labelledby="field-titol">
-      <div class="container field__inner">
-        <div class="field__text">
-          <p class="eyebrow eyebrow--bar">From the field</p>
-          <h2 class="field__number" id="field-titol">13,000</h2>
-          <p class="field__caption dada">Invoices a month, one client firm</p>
-          <p class="field__body">
-            That was the workload for one firm’s five-to-seven-person appeals
-            team, and below the appeal threshold, the money got walked away
-            from. Strata’s agents now analyze every line-item deduction and
-            draft each appeal narrative for attorney review. Nothing is
-            auto-submitted. The attorneys decide; the agents do the work that
-            made deciding too expensive.
-          </p>
-          <p class="field__note">
-            Invoice appeals is one named automation. The same platform runs
-            billing follow-up, lateral onboarding, and trust accounting.
-          </p>
-        </div>
-        <div class="field__card">
-          <p class="field__card-title etiqueta">One client firm</p>
-          <dl class="field__data">
-            <div class="field__row">
-              <dt>E-billing portals</dt>
-              <dd>19</dd>
-            </div>
-            <div class="field__row">
-              <dt>Appeal cycle</dt>
-              <dd>4-6 weeks</dd>
-            </div>
-            <div class="field__row">
-              <dt>Appeals team</dt>
-              <dd>5-7 people</dd>
-            </div>
-            <div class="field__row">
-              <dt>Auto-submitted appeals</dt>
-              <dd>0</dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-    </section>
-<!-- 7. WORKFLOWS: lista de procesos que se automatizan -->
-    <section class="workflows" id="workflows" aria-labelledby="workflows-titol">
-      <div class="container">
-        <p class="eyebrow">Workflows we run</p>
-        <h2 class="titol-seccio" id="workflows-titol">
-          Every automation, accountable by name.
-        </h2>
-        <p class="entradeta">
-          Strata operates underneath the billable work, not against it. The
-          workflows on this page are clerical, operational, or administrative.
-          You accept the work when it meets the bar.
-        </p>
-        <ul class="wf-list">
-          <li class="wf-item">
-            <span class="wf-tag etiqueta">WF · Invoice mgmt</span>
-            <div class="wf-content">
-              <h3>Invoice management</h3>
-              <p>
-                The e-billing layer of your firm, run by agents: guideline
-                compliance before an invoice goes out, deduction analysis when
-                it comes back, and the portal work in between.
-              </p>
-            </div>
-            <span class="wf-arrow" aria-hidden="true">→</span>
-          </li>
-          <li class="wf-item wf-item--sub">
-            <span class="wf-tag wf-tag--sub etiqueta">↳ Appeals</span>
-            <div class="wf-content">
-              <h3>Invoice appeals</h3>
-              <p>
-                Every reduction analyzed against the invoice and the client’s
-                guidelines. Every appeal narrative drafted for attorney review.
-                Nothing is auto-submitted. The money you’ve been writing off,
-                pursued at machine scale.
-              </p>
-            </div>
-            <span class="wf-arrow" aria-hidden="true">→</span>
-          </li>
-          <li class="wf-item">
-            <span class="wf-tag etiqueta">WF · Collections</span>
-            <div class="wf-content">
-              <h3>Billing follow-up and collections</h3>
-              <p>
-                Proformas chased before they go stale, aged AR worked in 30,
-                60, and 90 day buckets, client-facing sends approved by a
-                person. Every day of lock-up is working capital your partners
-                are lending interest-free.
-              </p>
-            </div>
-            <span class="wf-arrow" aria-hidden="true">→</span>
-          </li>
-          <li class="wf-item">
-            <span class="wf-tag etiqueta">WF · Lateral</span>
-            <div class="wf-content">
-              <h3>Lateral onboarding</h3>
-              <p>
-                The unbilled drag between signing a lateral and their book
-                billing here: conflicts questionnaires, client and matter
-                transfers, timekeeper and billing setup, systems access. Weeks
-                become days.
-              </p>
-            </div>
-            <span class="wf-arrow" aria-hidden="true">→</span>
-          </li>
-          <li class="wf-item">
-            <span class="wf-tag etiqueta">WF · Trust</span>
-            <div class="wf-content">
-              <h3>Trust accounting and reconciliation</h3>
-              <p>
-                Three-way reconciliation on schedule instead of when someone
-                finds time, unclaimed-funds aging, disbursement checks. The
-                work that gets firms disciplined when it slips.
-              </p>
-            </div>
-            <span class="wf-arrow" aria-hidden="true">→</span>
-          </li>
-          <li class="wf-item">
-            <span class="wf-tag etiqueta">WF · Back office</span>
-            <div class="wf-content">
-              <h3>Back office</h3>
-              <p>
-                AR, AP, payroll support, records and document management.
-                High-volume, rule-heavy, and exactly what agents are for.
-              </p>
-            </div>
-            <span class="wf-arrow" aria-hidden="true">→</span>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- 8. ATLAS: cómo se organiza y utiliza el conocimiento de la empresa -->
-    <section class="atlas" id="atlas" aria-labelledby="atlas-titol">
-      <div class="container">
-        <p class="eyebrow eyebrow--bar">Strata Atlas</p>
-        <h2 class="titol-gran" id="atlas-titol">
-          Your firm’s knowledge, made operational.
-        </h2>
-        <p class="entradeta">
-          The knowledge that runs your firm lives in people’s heads. Atlas puts
-          it to work.
-        </p>
-
-        <img
-          class="atlas__img"
-          src="assets/img/atlas-screenshot.webp"
-          width="1706"
-          height="1092"
-          alt="Strata Atlas: knowledge graph of the firm Whitfield Carras LLP, with people, organizations, systems and workflows connected as nodes"
-        />
-
-        <ol class="atlas__steps">
-          <li class="atlas__step">
-            <h3>Map.</h3>
-            <p>Atlas learns how your firm actually works.</p>
-          </li>
-          <li class="atlas__step">
-            <h3>Structure.</h3>
-            <p>Your knowledge, organized so an agent can act on it.</p>
-          </li>
-          <li class="atlas__step">
-            <h3>Operate.</h3>
-            <p>Agents run the work. Recovery reported every week.</p>
-          </li>
-          <li class="atlas__step">
-            <h3>Refine.</h3>
-            <p>Ask it anything. Correct what it misses. The map stays yours.</p>
-          </li>
-        </ol>
-
-        <p class="atlas__claim">
-          It’s not a black box. Watch it reason, follow the connections it
-          draws, and correct what it gets wrong.
-        </p>
-
-        <div class="atlas__demo">
-          <div class="consulta">
-            <svg class="consulta__icona" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle><path d="M20 20l-3.2-3.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
-            <p class="consulta__text">
-              What does onboarding a lateral hire involve?<span
-                class="consulta__cursor"
-                aria-hidden="true"
-              ></span>
-            </p>
-            <span class="consulta__btn" aria-hidden="true">Ask</span>
-          </div>
-
-          <div class="nodes">
-            <p class="eyebrow eyebrow--petit">Editable nodes</p>
-            <div class="nodes__list">
-              <article class="node">
-                <h3 class="node__title">Fee write-off approval</h3>
-                <p>
-                  Write-offs over $5,000 route to the Managing Partner for
-                  sign-off.
-                </p>
-                <p class="node__ok">Confirmed by your firm</p>
-              </article>
-              <article class="node">
-                <h3 class="node__title">Client intake gate</h3>
-                <p>
-                  Conflicts must clear and billing guidelines attach before a
-                  matter opens.
-                </p>
-                <p class="node__ok">Confirmed by your firm</p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-        <!-- 9. GOVERNANCE: controles de seguridad y revisión humana -->
-    <section class="governance" id="governance" aria-labelledby="gov-titol">
-      <div class="container">
-        <p class="eyebrow eyebrow--bar">Governance</p>
-        <h2 class="titol-seccio" id="gov-titol">
-          Built for the people who have to say yes.
-        </h2>
-        <p class="gov__lead">
-          Bring your security team to the first demo. What they’ll ask for is
-          what we built first.
-        </p>
-
-        <div class="gov__cards">
-          <article class="gov-card gov-card--blau">
-            <h3>Cited</h3>
-            <p>
-              Every answer an agent gives carries claim-level citations back to
-              source.
-            </p>
-          </article>
-          <article class="gov-card gov-card--verd">
-            <h3>Approved</h3>
-            <p>
-              Human checkpoints are workflow steps. Your people decide; the run
-              resumes the moment they respond.
-            </p>
-          </article>
-          <article class="gov-card gov-card--lila">
-            <h3>Contained</h3>
-            <p>
-              The Library of Actions works the way your DBAs think: approved
-              actions only, proper credentials, logged completely.
-            </p>
-          </article>
-          <article class="gov-card gov-card--fosc">
-            <h3>Controlled</h3>
-            <p>Model and tool choice is governed per step, not per vendor.</p>
-          </article>
-        </div>
-
-        <ol class="run">
-          <li class="run__step run__step--1">
-            <span class="run__num dada">01</span>
-            <h3>Trigger</h3>
-            <p>email, schedule, or on demand</p>
-          </li>
-          <li class="run__step run__step--2">
-            <span class="run__num dada">02</span>
-            <h3>Agent works</h3>
-            <p>approved actions only</p>
-          </li>
-          <li class="run__step run__step--3">
-            <span class="run__num dada">03</span>
-            <h3>Your team approves</h3>
-            <p>wherever judgment matters</p>
-          </li>
-          <li class="run__step run__step--4">
-            <span class="run__num dada">04</span>
-            <h3>Delivered</h3>
-            <p>logged end to end</p>
-          </li>
-        </ol>
-
-        <ul class="garanties etiqueta">
-          <li>Single sign-on</li>
-          <li>Encrypted credentials at rest</li>
-          <li>Isolation between every account</li>
-          <li>The map Atlas builds stays yours</li>
-        </ul>
-      </div>
-    </section>
-    <!-- 10. GET STARTED: enlaces para pedir una demo y conocer la plataforma -->
-    <section class="cta" id="get-started" aria-labelledby="cta-titol">
-      <div class="container">
-        <p class="eyebrow">Get started</p>
-        <h2 class="titol-gran" id="cta-titol">
-          See what your firm is currently
-          <span class="text-degradat">writing off</span>.
-        </h2>
-        <p class="entradeta">Your firm has a write-off number. Let’s find it.</p>
-
-        <div class="cta__accions">
-          <a class="boto boto--fosc" href="https://www.strata.ai/">Book a Demo</a>
-          <a class="boto boto--text" href="#platform">See the platform</a>
-        </div>
-
-        <ul class="confianca">
-          <li class="confianca__item">
-            <p class="etiqueta">Approvals</p>
-            <p>Your team approves. Agents do the work.</p>
-          </li>
-          <li class="confianca__item">
-            <p class="etiqueta">Audit</p>
-            <p>Every run logged end to end.</p>
-          </li>
-          <li class="confianca__item">
-            <p class="etiqueta">Security</p>
-            <p>SSO · encrypted credentials · account isolation</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    </main>
-    <footer class="peu">
-    <div class="container peu__inner">
-      <a class="peu__logo" href="#">
-        <img src="assets/img/strata-icon.svg" alt="" width="24" height="24" /> <!-- alt vacío: es decorativo, el texto "Strata" ya está al lado -->
-        <span>Strata</span>
-      </a>
-      <nav class="peu__nav" aria-label="Footer">
+      <nav class="header-menu">
         <a href="#platform">Platform</a>
         <a href="#workflows">Workflows</a>
         <a href="#atlas">Atlas</a>
-        <a href="#get-started">Book a demo</a>
       </nav>
-      <p class="peu__copy">© 2026 Strata AI, Inc.</p>
-    </div>
+      <a class="boto boto--fosc" href="https://www.strata.ai/">Book a Demo</a>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <img class="hero-img" src="assets\img\strata-icon.svg" />
+          <h1 class="etiqueta">The work your firm doesn’t bill for, done.</h1>
+          <h2 class="dada">
+            AI agents that run the operational work your firm doesn’t bill for.
+            We turn it into recovered revenue and reclaimed capacity.
+          </h2>
+          <div class="cta__accions">
+            <a class="boto boto--fosc" href="https://www.strata.ai/"
+              >Book a Demo</a
+            >
+            <a class="boto boto--text" href="#platform">See the platform</a>
+          </div>
 
+          <img
+            src="assets/img/nexus-screenshot.webp"
+            alt="Strata Nexus dashboard"
+          />
+        </div>
+      </section>
+      <!-- 1. PLATFORM -->
+      <section class="platform" id="platform" aria-labelledby="platform-titol">
+        <div class="container">
+          <p class="eyebrow eyebrow--bar">THE PLATFORM, BRIEFLY</p>
+          <h2 class="titol-seccio" id="platform-titol">
+            One platform. Three surfaces.
+          </h2>
+          <div class="platform-card-container">
+            <div class="platform-card platform-card1">
+              <h3>Strata Atlas</h3>
+              <p>
+                Where your firm’s operational map lives. Data sources connected,
+                knowledge organized, ontology managed, workflows configured. The
+                technical surface, operated by your innovation and IT teams
+                alongside ours.
+              </p>
+            </div>
+            <div class="platform-card platform-card2">
+              <h3>Strata Nexus</h3>
+              <p>
+                The executive dashboard. Operational Value at the top: Time
+                Saved, Revenue Recovered. Every workflow’s health, every
+                integration’s status, and a Morning Brief in your inbox. Built
+                for the CIO, CFO, COO and Managing Partner.
+              </p>
+            </div>
+            <div class="platform-card platform-card3">
+              <h3>Strata Canvas</h3>
+              <p>
+                The design surface for new automations. Workflows get built
+                here, by our team and your SMEs together, before they’re
+                promoted into production.
+              </p>
+            </div>
+          </div>
+          <div class="platform-card-core platform-card4">
+            <h3>Strata Core</h3>
+            <p>
+              The engine underneath. Every workflow runs on it. Every dashboard
+              reads from it. Every integration flows through it. One foundation
+              for the work.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 2. Franja de mensaje -->
+      <section class="franja" aria-label="Strata approach">
+        <div class="container franja__inner">
+          <p>
+            Every workflow we run is a named automation with an owner and binary
+            acceptance criteria.
+          </p>
+          <p>We don’t lead with the AI. We lead with the numbers it moves.</p>
+        </div>
+      </section>
+      <!-- 3. Operational Value -->
+      <section
+        class="operational"
+        id="operational-value"
+        aria-labelledby="operational-titol"
+      >
+        <div class="container">
+          <p class="eyebrow eyebrow--bar">Operational value</p>
+          <h2 class="titol-seccio" id="operational-titol">
+            Two numbers. Reported every week.
+          </h2>
+          <p class="operational__lead">Denominated in dollars and hours.</p>
+          <div class="operational-card">
+            <p class="operational-card__title etiqueta">
+              Strata Nexus · Operational Value
+            </p>
+            <p class="operational-card__note etiqueta">
+              Illustrative · Mid-size firm · Monthly
+            </p>
+            <div class="operational-card__metrics">
+              <article class="operational-metric">
+                <p class="operational-metric__label etiqueta">
+                  Revenue recovered
+                </p>
+                <p class="operational-metric__value">$428,610</p>
+                <p class="operational-metric__description">
+                  Dollars collected that would have been written off.
+                </p>
+                <p class="operational-metric__change dada">+18% MoM</p>
+              </article>
+              <article class="operational-metric">
+                <p class="operational-metric__label etiqueta">
+                  Capacity reclaimed
+                </p>
+                <p class="operational-metric__value">1,284<span>hrs</span></p>
+                <p class="operational-metric__description">
+                  Hours returned to paralegals, billing, and intake.
+                </p>
+                <p class="operational-metric__change dada">≈ 12 FTE-weeks</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. FIELD: ejemplo de un cliente y datos de su carga de trabajo -->
+      <section class="field" id="field" aria-labelledby="field-titol">
+        <div class="container field__inner">
+          <div class="field__text">
+            <p class="eyebrow eyebrow--bar">From the field</p>
+            <h2 class="field__number" id="field-titol">13,000</h2>
+            <p class="field__caption dada">Invoices a month, one client firm</p>
+            <p class="field__body">
+              That was the workload for one firm’s five-to-seven-person appeals
+              team, and below the appeal threshold, the money got walked away
+              from. Strata’s agents now analyze every line-item deduction and
+              draft each appeal narrative for attorney review. Nothing is
+              auto-submitted. The attorneys decide; the agents do the work that
+              made deciding too expensive.
+            </p>
+            <p class="field__note">
+              Invoice appeals is one named automation. The same platform runs
+              billing follow-up, lateral onboarding, and trust accounting.
+            </p>
+          </div>
+          <div class="field__card">
+            <p class="field__card-title etiqueta">One client firm</p>
+            <dl class="field__data">
+              <div class="field__row">
+                <dt>E-billing portals</dt>
+                <dd>19</dd>
+              </div>
+              <div class="field__row">
+                <dt>Appeal cycle</dt>
+                <dd>4-6 weeks</dd>
+              </div>
+              <div class="field__row">
+                <dt>Appeals team</dt>
+                <dd>5-7 people</dd>
+              </div>
+              <div class="field__row">
+                <dt>Auto-submitted appeals</dt>
+                <dd>0</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <!-- 5. WORKFLOWS: lista de procesos que se automatizan -->
+      <section
+        class="workflows"
+        id="workflows"
+        aria-labelledby="workflows-titol"
+      >
+        <div class="container">
+          <p class="eyebrow">Workflows we run</p>
+          <h2 class="titol-seccio" id="workflows-titol">
+            Every automation, accountable by name.
+          </h2>
+          <p class="entradeta">
+            Strata operates underneath the billable work, not against it. The
+            workflows on this page are clerical, operational, or administrative.
+            You accept the work when it meets the bar.
+          </p>
+          <ul class="wf-list">
+            <li class="wf-item">
+              <span class="wf-tag etiqueta">WF · Invoice mgmt</span>
+              <div class="wf-content">
+                <h3>Invoice management</h3>
+                <p>
+                  The e-billing layer of your firm, run by agents: guideline
+                  compliance before an invoice goes out, deduction analysis when
+                  it comes back, and the portal work in between.
+                </p>
+              </div>
+              <span class="wf-arrow" aria-hidden="true">→</span>
+            </li>
+            <li class="wf-item wf-item--sub">
+              <span class="wf-tag wf-tag--sub etiqueta">↳ Appeals</span>
+              <div class="wf-content">
+                <h3>Invoice appeals</h3>
+                <p>
+                  Every reduction analyzed against the invoice and the client’s
+                  guidelines. Every appeal narrative drafted for attorney
+                  review. Nothing is auto-submitted. The money you’ve been
+                  writing off, pursued at machine scale.
+                </p>
+              </div>
+              <span class="wf-arrow" aria-hidden="true">→</span>
+            </li>
+            <li class="wf-item">
+              <span class="wf-tag etiqueta">WF · Collections</span>
+              <div class="wf-content">
+                <h3>Billing follow-up and collections</h3>
+                <p>
+                  Proformas chased before they go stale, aged AR worked in 30,
+                  60, and 90 day buckets, client-facing sends approved by a
+                  person. Every day of lock-up is working capital your partners
+                  are lending interest-free.
+                </p>
+              </div>
+              <span class="wf-arrow" aria-hidden="true">→</span>
+            </li>
+            <li class="wf-item">
+              <span class="wf-tag etiqueta">WF · Lateral</span>
+              <div class="wf-content">
+                <h3>Lateral onboarding</h3>
+                <p>
+                  The unbilled drag between signing a lateral and their book
+                  billing here: conflicts questionnaires, client and matter
+                  transfers, timekeeper and billing setup, systems access. Weeks
+                  become days.
+                </p>
+              </div>
+              <span class="wf-arrow" aria-hidden="true">→</span>
+            </li>
+            <li class="wf-item">
+              <span class="wf-tag etiqueta">WF · Trust</span>
+              <div class="wf-content">
+                <h3>Trust accounting and reconciliation</h3>
+                <p>
+                  Three-way reconciliation on schedule instead of when someone
+                  finds time, unclaimed-funds aging, disbursement checks. The
+                  work that gets firms disciplined when it slips.
+                </p>
+              </div>
+              <span class="wf-arrow" aria-hidden="true">→</span>
+            </li>
+            <li class="wf-item">
+              <span class="wf-tag etiqueta">WF · Back office</span>
+              <div class="wf-content">
+                <h3>Back office</h3>
+                <p>
+                  AR, AP, payroll support, records and document management.
+                  High-volume, rule-heavy, and exactly what agents are for.
+                </p>
+              </div>
+              <span class="wf-arrow" aria-hidden="true">→</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 6. ATLAS: cómo se organiza y utiliza el conocimiento de la empresa -->
+      <section class="atlas" id="atlas" aria-labelledby="atlas-titol">
+        <div class="container">
+          <p class="eyebrow eyebrow--bar">Strata Atlas</p>
+          <h2 class="titol-gran" id="atlas-titol">
+            Your firm’s knowledge, made operational.
+          </h2>
+          <p class="entradeta">
+            The knowledge that runs your firm lives in people’s heads. Atlas
+            puts it to work.
+          </p>
+
+          <img
+            class="atlas__img"
+            src="assets/img/atlas-screenshot.webp"
+            width="1706"
+            height="1092"
+            alt="Strata Atlas: knowledge graph of the firm Whitfield Carras LLP, with people, organizations, systems and workflows connected as nodes"
+          />
+
+          <ol class="atlas__steps">
+            <li class="atlas__step">
+              <h3>Map.</h3>
+              <p>Atlas learns how your firm actually works.</p>
+            </li>
+            <li class="atlas__step">
+              <h3>Structure.</h3>
+              <p>Your knowledge, organized so an agent can act on it.</p>
+            </li>
+            <li class="atlas__step">
+              <h3>Operate.</h3>
+              <p>Agents run the work. Recovery reported every week.</p>
+            </li>
+            <li class="atlas__step">
+              <h3>Refine.</h3>
+              <p>
+                Ask it anything. Correct what it misses. The map stays yours.
+              </p>
+            </li>
+          </ol>
+
+          <p class="atlas__claim">
+            It’s not a black box. Watch it reason, follow the connections it
+            draws, and correct what it gets wrong.
+          </p>
+
+          <div class="atlas__demo">
+            <div class="consulta">
+              <svg
+                class="consulta__icona"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="7"
+                  stroke="currentColor"
+                  stroke-width="2"
+                ></circle>
+                <path
+                  d="M20 20l-3.2-3.2"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                ></path>
+              </svg>
+              <p class="consulta__text">
+                What does onboarding a lateral hire involve?<span
+                  class="consulta__cursor"
+                  aria-hidden="true"
+                ></span>
+              </p>
+              <span class="consulta__btn" aria-hidden="true">Ask</span>
+            </div>
+
+            <div class="nodes">
+              <p class="eyebrow eyebrow--petit">Editable nodes</p>
+              <div class="nodes__list">
+                <article class="node">
+                  <h3 class="node__title">Fee write-off approval</h3>
+                  <p>
+                    Write-offs over $5,000 route to the Managing Partner for
+                    sign-off.
+                  </p>
+                  <p class="node__ok">Confirmed by your firm</p>
+                </article>
+                <article class="node">
+                  <h3 class="node__title">Client intake gate</h3>
+                  <p>
+                    Conflicts must clear and billing guidelines attach before a
+                    matter opens.
+                  </p>
+                  <p class="node__ok">Confirmed by your firm</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. GOVERNANCE: controles de seguridad y revisión humana -->
+      <section class="governance" id="governance" aria-labelledby="gov-titol">
+        <div class="container">
+          <p class="eyebrow eyebrow--bar">Governance</p>
+          <h2 class="titol-seccio" id="gov-titol">
+            Built for the people who have to say yes.
+          </h2>
+          <p class="gov__lead">
+            Bring your security team to the first demo. What they’ll ask for is
+            what we built first.
+          </p>
+
+          <div class="gov__cards">
+            <article class="gov-card gov-card--blau">
+              <h3>Cited</h3>
+              <p>
+                Every answer an agent gives carries claim-level citations back
+                to source.
+              </p>
+            </article>
+            <article class="gov-card gov-card--verd">
+              <h3>Approved</h3>
+              <p>
+                Human checkpoints are workflow steps. Your people decide; the
+                run resumes the moment they respond.
+              </p>
+            </article>
+            <article class="gov-card gov-card--lila">
+              <h3>Contained</h3>
+              <p>
+                The Library of Actions works the way your DBAs think: approved
+                actions only, proper credentials, logged completely.
+              </p>
+            </article>
+            <article class="gov-card gov-card--fosc">
+              <h3>Controlled</h3>
+              <p>Model and tool choice is governed per step, not per vendor.</p>
+            </article>
+          </div>
+
+          <ol class="run">
+            <li class="run__step run__step--1">
+              <span class="run__num dada">01</span>
+              <h3>Trigger</h3>
+              <p>email, schedule, or on demand</p>
+            </li>
+            <li class="run__step run__step--2">
+              <span class="run__num dada">02</span>
+              <h3>Agent works</h3>
+              <p>approved actions only</p>
+            </li>
+            <li class="run__step run__step--3">
+              <span class="run__num dada">03</span>
+              <h3>Your team approves</h3>
+              <p>wherever judgment matters</p>
+            </li>
+            <li class="run__step run__step--4">
+              <span class="run__num dada">04</span>
+              <h3>Delivered</h3>
+              <p>logged end to end</p>
+            </li>
+          </ol>
+
+          <ul class="garanties etiqueta">
+            <li>Single sign-on</li>
+            <li>Encrypted credentials at rest</li>
+            <li>Isolation between every account</li>
+            <li>The map Atlas builds stays yours</li>
+          </ul>
+        </div>
+      </section>
+      <!-- 8. GET STARTED: enlaces para pedir una demo y conocer la plataforma -->
+      <section class="cta" id="get-started" aria-labelledby="cta-titol">
+        <div class="container">
+          <p class="eyebrow">Get started</p>
+          <h2 class="titol-gran" id="cta-titol">
+            See what your firm is currently
+            <span class="text-degradat">writing off</span>.
+          </h2>
+          <p class="entradeta">
+            Your firm has a write-off number. Let’s find it.
+          </p>
+
+          <div class="cta__accions">
+            <a class="boto boto--fosc" href="https://www.strata.ai/"
+              >Book a Demo</a
+            >
+            <a class="boto boto--text" href="#platform">See the platform</a>
+          </div>
+
+          <ul class="confianca">
+            <li class="confianca__item">
+              <p class="etiqueta">Approvals</p>
+              <p>Your team approves. Agents do the work.</p>
+            </li>
+            <li class="confianca__item">
+              <p class="etiqueta">Audit</p>
+              <p>Every run logged end to end.</p>
+            </li>
+            <li class="confianca__item">
+              <p class="etiqueta">Security</p>
+              <p>SSO · encrypted credentials · account isolation</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="peu">
+      <div class="container peu__inner">
+        <a class="peu__logo" href="#">
+          <img src="assets/img/strata-icon.svg" alt="" width="24" height="24" />
+          <!-- alt vacío: es decorativo, el texto "Strata" ya está al lado -->
+          <span>Strata</span>
+        </a>
+        <nav class="peu__nav" aria-label="Footer">
+          <a href="#platform">Platform</a>
+          <a href="#workflows">Workflows</a>
+          <a href="#atlas">Atlas</a>
+          <a href="#get-started">Book a demo</a>
+        </nav>
+        <p class="peu__copy">© 2026 Strata AI, Inc.</p>
+      </div>
     </footer>
   </body>
 </html>

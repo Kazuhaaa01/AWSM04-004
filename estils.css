@@ -49,3 +49,33 @@ h3 {
     display: none !important;
   }
 }
+:root {
+  --tinta: #26262b;
+  --tinta-suau: #757557;
+  --tinta-clara: #9a9aa0;
+  --linia: #e3e2dc;
+  --fons-clar: #fbfbf9;
+  --fons-crema: #f6f5f0;
+  --fons-fosc: #0e0f13;
+  --fons-peu: #16171c;
+  --blau: #3b8cdd;
+  --degradat-marca: linear-gradient(90deg, #89c166, #3b8cdd);
+  --radi: 14px;
+  --amplada-max: 1136px;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--tinta);
+  background: var(--fons-clar);
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

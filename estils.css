@@ -843,3 +843,179 @@ img{
     width: 100%;
   }
 }
+
+/* ===== RESPONSIVE: MÓVIL ===== */
+@media (max-width: 767px) {
+  .container {
+    padding-inline: 20px;
+  }
+
+  .titol-seccio {
+    font-size: 30px;
+  }
+
+  .titol-gran,
+  .cta .titol-gran {
+    font-size: 42px;
+    line-height: 1.08;
+  }
+
+  .entradeta,
+  .atlas .entradeta {
+    font-size: 19px;
+  }
+
+  .field {
+    padding: 80px 0;
+  }
+
+  .field__number {
+    font-size: 88px;
+  }
+
+  .field__card {
+    max-width: none;
+    padding-inline: 20px;
+  }
+
+  .workflows,
+  .atlas {
+    padding: 80px 0;
+  }
+
+  .wf-item,
+  .wf-item--sub {
+    flex-direction: column;
+    gap: 14px;
+    padding: 32px 0;
+  }
+
+  .wf-tag {
+    position: static;
+    align-self: flex-start;
+  }
+
+  .wf-item--sub {
+    padding-inline: 20px;
+    background: #efeee9;
+  }
+
+  .wf-arrow {
+    display: none;
+  }
+
+  .wf-content h3 {
+    font-size: 21px;
+  }
+
+  .atlas__img {
+    margin: 48px 0;
+  }
+
+  .atlas__steps {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .nodes__list {
+    flex-direction: column;
+  }
+
+  .consulta__text {
+    font-size: 15px;
+  }
+
+  .governance {
+    padding: 80px 0;
+  }
+
+  .gov__cards {
+    flex-direction: column;
+  }
+
+  .gov-card {
+    min-height: 0;
+    padding: 28px 24px;
+  }
+
+  .gov-card p {
+    max-width: none;
+  }
+
+  .run {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .run__step {
+    display: block;
+    position: relative;
+    padding-left: 56px;
+  }
+
+  .run__num {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+  }
+
+  .run__step::after {
+    position: absolute;
+    left: 8px;
+    top: 22px;
+    bottom: 0;
+    width: 2px;
+    height: auto;
+    margin: 0;
+  }
+
+  .run__step h3 {
+    margin-top: 18px;
+  }
+
+  .garanties {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .garanties li + li::before {
+    content: none;
+  }
+
+  .cta {
+    padding: 90px 0 60px;
+  }
+
+  .cta__accions {
+    margin-bottom: 56px;
+  }
+
+  .confianca {
+    flex-direction: column;
+    padding-top: 8px;
+  }
+
+  .confianca__item,
+  .confianca__item:first-child {
+    padding: 24px 0;
+    border-left: 0;
+    border-bottom: 1px solid #e3ded6;
+  }
+
+  .confianca__item:last-child {
+    border-bottom: 0;
+  }
+
+  .peu__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .peu__nav {
+    flex-wrap: wrap;
+    gap: 12px 20px;
+  }
+}

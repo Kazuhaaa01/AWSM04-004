@@ -51,7 +51,7 @@ h3 {
 }
 :root {
   --tinta: #26262b;
-  --tinta-suau: #757557;
+  --tinta-suau: #75757c;
   --tinta-clara: #9a9aa0;
   --linia: #e3e2dc;
   --fons-clar: #fbfbf9;
@@ -877,9 +877,16 @@ img{
     font-size: 21px;
   }
 
+  .wf-item {
+    flex-direction: column;
+    gap: 14px;
+    padding: 32px 0;
+  }
+
   .atlas__img {
     margin: 48px 0;
   }
+  
 
   .atlas__steps {
     flex-direction: column;

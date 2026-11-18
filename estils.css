@@ -805,3 +805,41 @@ img{
 .peu__copy {
   margin: 0;
 }
+
+/* ===== RESPONSIVE: TABLETA ===== */
+@media (max-width: 1100px) {
+  .titol-gran,
+  .cta .titol-gran {
+    font-size: 60px;
+  }
+
+  .field__inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .field__card {
+    flex-basis: auto;
+    max-width: 520px;
+  }
+
+  .atlas__steps,
+  .gov__cards {
+    flex-wrap: wrap;
+  }
+
+  .atlas__step,
+  .gov-card {
+    flex: 1 1 calc(50% - 40px);
+  }
+
+  .atlas__demo {
+    flex-direction: column;
+  }
+
+  .consulta,
+  .nodes {
+    flex-basis: auto;
+    width: 100%;
+  }
+}

@@ -374,27 +374,6 @@ img{
   transform: translateX(4px);
 }
 
-.wf-item--sub {
-  padding-left: 288px;
-  background: linear-gradient(90deg, #efeee9 0%, #f3f2ed 30%, var(--fons-crema) 50%);
-}
-
-.wf-item--sub .wf-tag {
-  left: 48px;
-}
-
-.wf-tag--sub {
-  border-color: #e4ddd0;
-  background: #efe9de;
-  color: #8c877e;
-  text-transform: none;
-  letter-spacing: 0.02em;
-}
-
-.wf-item--sub h3 {
-  font-size: 20px;
-}
-
 /* 8. ATLAS: cómo se organiza y utiliza el conocimiento de la empresa */
 .atlas {
   padding: 140px 0 120px;
@@ -883,22 +862,12 @@ img{
     padding: 80px 0;
   }
 
-  .wf-item,
-  .wf-item--sub {
-    flex-direction: column;
-    gap: 14px;
-    padding: 32px 0;
-  }
 
   .wf-tag {
     position: static;
     align-self: flex-start;
   }
 
-  .wf-item--sub {
-    padding-inline: 20px;
-    background: #efeee9;
-  }
 
   .wf-arrow {
     display: none;

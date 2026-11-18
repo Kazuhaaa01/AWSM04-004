@@ -189,3 +189,115 @@ img{
   outline-offset: 3px;
   border-radius: 6px;
   }  
+/* 6. FIELD: ejemplo de un cliente y datos de su carga de trabajo */
+.field {
+  padding: 120px 0;
+  color: #f2f2f4;
+  background:
+    radial-gradient(ellipse 45% 70% at 95% 0%, rgba(60, 110, 120, 0.45), transparent 70%),
+    radial-gradient(ellipse 35% 55% at 75% 35%, rgba(90, 110, 50, 0.35), transparent 70%),
+    var(--fons-fosc);
+}
+
+.field .eyebrow {
+  color: #c9c9ce;
+}
+
+.field__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.field__text {
+  flex: 0 1 620px;
+}
+
+.field__number {
+  margin: 0;
+  font-size: 128px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.field__caption {
+  margin: 14px 0 44px;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--tinta-clara);
+}
+
+.field__body {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.62;
+  color: #c9c9ce;
+}
+
+.field__note {
+  margin: 44px 0 0;
+  padding-top: 28px;
+  max-width: 552px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  line-height: 1.55;
+  color: #8a8a90;
+}
+
+.field__card {
+  position: relative;
+  flex: 0 0 442px;
+  padding: 22px 28px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radi);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+.field__card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #c9b842, #6cb27a, #3b8cdd, #9a3fd6);
+}
+
+.field__card-title {
+  margin: 0;
+  padding-bottom: 18px;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--tinta-clara);
+}
+
+.field__data {
+  margin: 0;
+}
+
+.field__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.field__row dt {
+  font-size: 14px;
+  color: #bdbdc2;
+}
+
+.field__row dd {
+  margin: 0;
+  font-size: 23px;
+  color: #fff;
+}

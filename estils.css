@@ -554,3 +554,142 @@ img{
   content: "✓";
   font-size: 12px;
 }
+
+/* 9. GOVERNANCE: controles de seguridad y revisión humana */
+.governance {
+  padding: 120px 0 100px;
+  background: var(--fons-clar);
+}
+
+.governance .titol-seccio {
+  margin-bottom: 40px;
+}
+
+.gov__lead {
+  margin: 0 0 52px;
+  font-size: 20px;
+}
+
+.gov__cards {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 56px;
+}
+
+.gov-card {
+  flex: 1;
+  min-height: 258px;
+  padding: 40px 36px;
+  border: 1px solid #e6e6e3;
+  border-top: 3px solid var(--color-card);
+  border-radius: var(--radi);
+  background: #fbfbfa;
+}
+
+.gov-card--blau { --color-card: #4f9be0; }
+
+.gov-card--verd { --color-card: #6cb27a; }
+
+.gov-card--lila { --color-card: #9a3fd6; }
+
+.gov-card--fosc { --color-card: #e6c34f; --color-guio: #2b2b30; }
+
+.gov-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 22px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.gov-card h3::before {
+  content: "";
+  width: 14px;
+  height: 2px;
+  background: var(--color-guio, var(--color-card));
+}
+
+.gov-card p {
+  margin: 0;
+  max-width: 180px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--tinta-suau);
+}
+
+.run {
+  display: flex;
+  margin: 0 0 48px;
+  padding: 0;
+  list-style: none;
+}
+
+.run__step {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.run__num {
+  margin-left: 12px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--tinta-clara);
+}
+
+.run__step::after {
+  content: "";
+  order: 1;
+  flex: 1;
+  height: 2px;
+  margin-left: 12px;
+  background: var(--color-pas);
+}
+
+.run__step h3,
+.run__step p {
+  order: 2;
+  flex-basis: 100%;
+}
+
+.run__step--1 { --color-pas: linear-gradient(90deg, #e6c34f, #6cb27a); }
+
+.run__step--2 { --color-pas: linear-gradient(90deg, #6cb27a, #3b8cdd); }
+
+.run__step--3 { --color-pas: linear-gradient(90deg, #3b8cdd, #9a3fd6); }
+
+.run__step--4 { --color-pas: linear-gradient(90deg, #9a3fd6, rgba(154, 63, 214, 0)); }
+
+.run__step h3 {
+  margin: 22px 0 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.run__step p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--tinta-suau);
+}
+
+.garanties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #7a7a80;
+}
+
+.garanties li + li::before {
+  content: "·";
+  margin: 0 12px;
+  color: #c4c4c4;
+}

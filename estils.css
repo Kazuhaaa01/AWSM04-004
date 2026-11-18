@@ -693,3 +693,68 @@ img{
   margin: 0 12px;
   color: #c4c4c4;
 }
+
+/* 10. GET STARTED: enlaces para pedir una demo y conocer la plataforma */
+.cta {
+  padding: 140px 0 100px;
+  border-top: 1px solid #f1d9de;
+  background:
+    radial-gradient(ellipse 40% 50% at 0% 0%, #d8e3ec, transparent 70%),
+    radial-gradient(ellipse 35% 45% at 100% 100%, #ecd1d8, transparent 75%),
+    #f4f2ec;
+}
+
+.cta .titol-gran {
+  margin-bottom: 40px;
+  font-size: 76px;
+}
+
+.cta__accions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 40px 0 96px;
+}
+
+.confianca {
+  display: flex;
+  margin: 0;
+  padding: 32px 0 0;
+  list-style: none;
+  border-top: 1px solid #e3ded6;
+}
+
+.confianca__item {
+  flex: 1;
+  padding: 20px 24px;
+  border-left: 1px solid #e3ded6;
+}
+
+.confianca__item:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.confianca__item::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 5px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  background: var(--degradat-marca);
+}
+
+.confianca__item p {
+  margin: 0;
+  font-size: 15.5px;
+}
+
+.confianca__item .etiqueta {
+  margin-bottom: 12px;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--tinta-suau);
+}

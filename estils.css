@@ -63,9 +63,9 @@ h3 {
   --radi: 14px;
   --amplada-max: 1136px;
 }
-
-::before,
-::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -162,7 +162,7 @@ img{
   color: #fff;
   }
   
-.boto--ftsc:hover {
+.boto--fosc:hover {
   background: #3a3b42;
   }
   
@@ -180,7 +180,7 @@ img{
   }
   
 .field a:focus-visible,
-.workflows a:focus-viible,
+.workflows a:focus-visible,
 .atlas a:focus-visible,
 .governance a:focus-visible,
 .cta a:focus-visible,

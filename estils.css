@@ -301,3 +301,96 @@ img{
   font-size: 23px;
   color: #fff;
 }
+
+/* 7. WORKFLOWS: lista de procesos que se automatizan */
+.workflows {
+  padding: 140px 0 60px;
+  background: var(--fons-crema);
+}
+
+.workflows .entradeta {
+  margin-bottom: 64px;
+}
+
+.wf-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--linia);
+}
+
+.wf-item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 40px 0 40px 240px;
+  border-bottom: 1px solid var(--linia);
+}
+
+.wf-tag {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  padding: 5px 11px;
+  border: 1px solid #efd8b8;
+  border-radius: 999px;
+  background: #f6e7d2;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a8743f;
+  white-space: nowrap;
+}
+
+.wf-content {
+  flex: 1;
+  max-width: 660px;
+}
+
+.wf-content h3 {
+  margin: 0 0 12px;
+  font-size: 23px;
+  letter-spacing: -0.01em;
+}
+
+.wf-content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--tinta-suau);
+}
+
+.wf-arrow {
+  margin-left: auto;
+  align-self: center;
+  font-size: 20px;
+  color: #c4c2ba;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.wf-item:hover .wf-arrow {
+  color: var(--tinta);
+  transform: translateX(4px);
+}
+
+.wf-item--sub {
+  padding-left: 288px;
+  background: linear-gradient(90deg, #efeee9 0%, #f3f2ed 30%, var(--fons-crema) 50%);
+}
+
+.wf-item--sub .wf-tag {
+  left: 48px;
+}
+
+.wf-tag--sub {
+  border-color: #e4ddd0;
+  background: #efe9de;
+  color: #8c877e;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.wf-item--sub h3 {
+  font-size: 20px;
+}

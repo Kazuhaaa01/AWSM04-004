@@ -394,3 +394,163 @@ img{
 .wf-item--sub h3 {
   font-size: 20px;
 }
+
+/* 8. ATLAS: cómo se organiza y utiliza el conocimiento de la empresa */
+.atlas {
+  padding: 140px 0 120px;
+  background: var(--fons-clar);
+}
+
+.atlas .entradeta {
+  font-size: 27px;
+  max-width: none;
+}
+
+.atlas__img {
+  width: 100%;
+  margin: 72px 0;
+  border: 1px solid #e6e6e3;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+}
+
+.atlas__steps {
+  display: flex;
+  gap: 40px;
+  margin: 0 0 72px;
+  padding: 0;
+  list-style: none;
+}
+
+.atlas__step {
+  flex: 1;
+  padding-top: 24px;
+  border-top: 2px solid #2b2b30;
+}
+
+.atlas__step h3 {
+  margin: 0 0 14px;
+  font-size: 25px;
+}
+
+.atlas__step p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--tinta-suau);
+}
+
+.atlas__claim {
+  max-width: 720px;
+  margin: 0 0 60px;
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+.atlas__demo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 56px;
+}
+
+.consulta {
+  flex: 0 1 620px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 14px 14px 18px;
+  border: 1px solid #d9d9d6;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 0 4px #f1f1ee;
+}
+
+.consulta__icona {
+  flex: none;
+  color: #8a8a90;
+}
+
+.consulta__text {
+  flex: 1;
+  margin: 0;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.consulta__cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  background: var(--tinta);
+}
+
+.consulta__btn {
+  padding: 9px 16px;
+  border-radius: 7px;
+  background: #2b2c31;
+  color: #fff;
+  font-size: 14px;
+}
+
+.nodes {
+  flex: 0 1 460px;
+}
+
+.nodes__list {
+  display: flex;
+  gap: 12px;
+}
+
+.node {
+  flex: 1;
+  padding: 20px 18px;
+  border: 1px solid #a9d2ad;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.node__title {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.45;
+  text-transform: uppercase;
+  color: #55555b;
+}
+
+.node__title::before {
+  content: "";
+  flex: 0 0 8px;
+  height: 8px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: #3e8f4c;
+}
+
+.node p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.node .node__ok {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #3e8f4c;
+}
+
+.node__ok::before {
+  content: "✓";
+  font-size: 12px;
+}
